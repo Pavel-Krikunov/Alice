@@ -27,6 +27,8 @@ sessionStorage = {
 def main():
     logging.info('Request: %r', request.json)
 
+
+
     # Начинаем формировать ответ, согласно документации
     # мы собираем словарь, который потом отдадим Алисе
     response = {
